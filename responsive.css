@@ -1,0 +1,90 @@
+@media screen and (max-width:1400px){
+    
+}
+@media screen and (max-width:970px){
+    .offer h1{
+      font-size: 30px;
+  }
+  
+  }
+  @media screen and (max-width:767px){
+    .offer{
+        
+        padding: 10px 40px 10px 40px;
+        top: 30px;
+    }
+    .majentic .left_col{
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .offer h1{
+        font-size: 20px;
+    }
+    .offer{
+        top: 70px;
+    }
+    .banner .btn{
+        margin-top: 180px;  
+    }
+}
+
+@media screen and (max-width:575px){
+    .menu .main_menu  {     
+        display: grid;
+        grid-template-columns:  1fr;
+    }
+    .offer{
+        top: 60px;
+    }
+}
+@media screen and (max-width:520px){
+    .offer{
+        top: 40px;
+    }
+    .banner .btn{
+        margin-top: 200px;  
+    }
+    
+}
+    @media screen and (max-width:500px){
+      
+        .offer{
+        
+            padding: 6px 40px 6px 40px;
+            top: 100px;
+        } 
+        .banner .btn{
+            margin-top: 150px;  
+        }
+        .offer h1{
+            font-size: 16px;
+        }
+        .offer p{
+            font-size: 14px;
+            padding: 5px 0 0 0; 
+        }
+       
+           
+        }
+    
+
+@media screen and (max-width:470px){
+    .banner .btn{
+        margin-top: 170px;  
+    }
+}
+@media screen and (max-width:400px){
+    .offer{    
+        top: 70px;
+    } 
+}
+@media screen and (max-width:380px){
+    .offer{    
+        padding: 0;
+         
+        top: 150px;
+
+    } 
+}
