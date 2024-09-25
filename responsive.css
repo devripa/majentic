@@ -1,50 +1,202 @@
-@media screen and (max-width:1400px){
-    
+@media screen and (max-width:1420px){
+    .contact_from .subcribe_email{
+        width: 36%;
+    }
+    .contact_from .from{
+        width: 55%;
+    }
+    .contact_from .from input{
+        padding: 5px 10px;
+       
+    }
+}
+@media screen and (max-width:1300px){
+    .contact_from .from input{
+       width: 150px;
+       
+    }
+    .contact_from .subcribe_email h3{
+        color: #fff;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:1100px){
+    .contact_from .subcribe_email{
+        width: 100%;
+    }
+    .contact_from .subcribe_email h3{
+        text-align: center;
+        font-size: 25px;
+    }
+    .contact_from .from{
+        width: 100%;
+       padding: 10px 0  0 50px;
+        
+    }
+    .contact_from .from input{
+        width: 35%;
+      
+    }
+    .footer_col{
+        grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    }
 }
 @media screen and (max-width:970px){
     .offer h1{
       font-size: 30px;
   }
+  .banner .btn{
+    margin-top: 200px;  
+}
   
+  }
+  @media screen and (max-width:850px){
+   
+    .offer{
+         
+        top: 50px;
+    }
+    .banner .btn{
+        margin-top: 230px;  
+    }
   }
   @media screen and (max-width:767px){
     .offer{
         
-        padding: 10px 40px 10px 40px;
-        top: 30px;
+        padding: 8px 40px 5px 40px;
+        top: 80px;
     }
+  
+ 
+    .menu .main_menu .div a{
+        font-size: 15px;
+    }
+    .menu .main_menu .div i{
+        font-size: 15px;
+    }
+    .offer h1{
+        font-size: 25px;
+    }
+    .banner .btn{
+        margin-top: 170px;  
+    }
+    .banner .main ul{
+        content: "";
+        position: fixed;
+        background-color: rgb(255, 255, 255);
+        width: 50%;
+        height: 100%;
+        right: -50%;
+        top: 150px;
+        text-align: center;
+        transition: all .5s;
+        z-index: 1;
+        
+    }
+    .banner .main ul li{
+        display: block;
+        margin: 30px 0;
+        line-height: 20px;
+    }
+   #checkbutton{
+        display: block;
+    }
+   #check:checked ~ .main ul{
+    right: 0;
+   }
+   #checkbutton{
+    margin-right: -200px;
+   }
+}
     .majentic .left_col{
         width: 100%;
     }
-    
-}
+    .contact_from .from{
+        width: 100%;
+       padding: 10px 0  0 40px;
+        
+    }
+    .contact_from .from input{
+        width: 30%;
+      
+    }
+    .contact_from .subcribe_email h3{
+        font-size: 20px;
+    }
+    .contact_from .from .btn{ 
+        padding: 6px 30px;
+    }   
+    @media screen and (max-width:670px) {
+        .offer h1{
+            font-size: 20px;
+        }
+      
+        #checkbutton{
+            font-size: 20px;
+            margin-right: -180px;
+        }
+        .banner .main ul{
+            top: 130px;
+        }
+        .banner .btn{
+            margin-top: 190px;  
+        }
+       
+    }
+
 @media screen and (max-width:600px){
     .offer h1{
         font-size: 20px;
     }
+    #checkbutton{
+        font-size: 20px;
+        margin-right: -160px;
+    }
     .offer{
-        top: 70px;
+        top: 80px;
     }
     .banner .btn{
         margin-top: 180px;  
     }
+   
 }
 
 @media screen and (max-width:575px){
-    .menu .main_menu  {     
-        display: grid;
-        grid-template-columns:  1fr;
-    }
+    
     .offer{
-        top: 60px;
+        top: 90px;
+    }
+    .contact_from .from input{
+        width: 40%; 
+    }
+    .banner .btn{
+        margin-top: 180px;  
+    }
+    #checkbutton{
+        font-size: 20px;
+        margin-right: -140px;
+    }
+}
+@media screen and (max-width:565px){
+    .offer{
+        top: 70px;
+    }
+    #checkbutton{
+        margin-right: -120px;
     }
 }
 @media screen and (max-width:520px){
     .offer{
-        top: 40px;
+        top: 90px;
+    }
+    #checkbutton{
+        margin-right: -100px;
     }
     .banner .btn{
-        margin-top: 200px;  
+        margin-top: 180px;  
+    }
+    .offer h1{
+        font-size: 16px;
     }
     
 }
@@ -52,11 +204,14 @@
       
         .offer{
         
-            padding: 6px 40px 6px 40px;
+            padding: 10px 40px 6px 40px;
             top: 100px;
         } 
         .banner .btn{
             margin-top: 150px;  
+        }
+        #checkbutton{
+            margin-right: -70px;
         }
         .offer h1{
             font-size: 16px;
@@ -65,14 +220,26 @@
             font-size: 14px;
             padding: 5px 0 0 0; 
         }
-       
-           
+          
         }
     
 
 @media screen and (max-width:470px){
+    .offer{
+        top: 80px;
+    } 
+    #checkbutton{
+        margin-right: -140px;
+        margin-top: -40px;
+    }
+    .banner .main ul{
+        top: 160px;
+    }
     .banner .btn{
         margin-top: 170px;  
+    }
+    .menu .main_menu .div{
+        display: block;
     }
 }
 @media screen and (max-width:400px){
@@ -85,6 +252,19 @@
         padding: 0;
          
         top: 150px;
-
     } 
+    #checkbutton{
+        margin-right: -90px;
+        margin-top: -40px;
+    }
+    .offer h1{
+        font-size: 14px;
+    }
+    .offer p{
+        font-size: 10px;
+        padding: 3px 0 0 0; 
+    }
+    .banner .btn{
+        margin-top: 100px;  
+    }
 }
