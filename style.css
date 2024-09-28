@@ -6,6 +6,7 @@
 .container{
     width: 80vw;
     margin: 0 auto;
+    padding: 0 10px;
    
 }
 /* header css */
@@ -307,12 +308,11 @@
 .footer{
     text-align: center;
     margin-bottom: 30px;
-
 }
 .footer .footer_logo img{
     margin-bottom: 16px;
     border-bottom: 1px solid gray;
-    
+   
 }
 .footer p{
     color: black;
@@ -350,9 +350,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height:50vh ;
-    padding: 15px 0;
-    
-   
+    padding: 15px 0; 
 }
 .header_banner .backcamp{
     text-align: center;
@@ -385,9 +383,9 @@
 /* service css part */
 .angel{
     padding: 60px 0;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 30px;
 }
 .angel .sandoval h2{
     color: brown;
@@ -403,6 +401,7 @@
 .angel .sandoval .angel_media ul li{
     list-style-type: none;
     margin-bottom: 8px;
+    margin-left: -33px;
 }
 .angel .sandoval .angel_media ul li i{
     font-size: 20px;
@@ -422,7 +421,7 @@
 }
 .box-icon{
    display: grid;
-   grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
    gap: 30px;
   
 }
