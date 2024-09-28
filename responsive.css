@@ -9,6 +9,7 @@
         padding: 5px 10px;
        
     }
+
 }
 @media screen and (max-width:1300px){
     .contact_from .from input{
@@ -30,15 +31,25 @@
     }
     .contact_from .from{
         width: 100%;
-       padding: 10px 0  0 50px;
-        
+       padding: 10px 0  0 50px;   
     }
     .contact_from .from input{
-        width: 35%;
-      
+        width: 35%;  
     }
     .footer_col{
         grid-template-columns: repeat(auto-fit,minmax(200px, 1fr));
+    }
+    .contact .form_contact .text-from input{
+        margin: 15px 0;
+    }
+    .contact .form_contact .subject input{
+        margin: 15px 0;
+    }
+    .contact .sahara .social_media ul li{
+        font-size: 18px;
+    }
+    .contact .sahara .social_media ul li a{
+        font-size: 18px;
     }
 }
 @media screen and (max-width:970px){
@@ -47,27 +58,45 @@
   }
   .banner .btn{
     margin-top: 200px;  
+} 
+.contact .sahara{
+    width: 100%;
 }
-  
-  }
-  @media screen and (max-width:850px){
-   
-    .offer{
-         
+.contact{
+    flex-direction: column-reverse;
+    gap: 0;
+}
+
+
+.contact .sahara{
+    width: 100%;
+    margin-left: 0;
+}
+.contact .sahara .sahara_ave{
+    margin-left: 0;
+}
+.contact .sahara .social_media ul li{
+    margin-left: -30px;
+}
+.contact .form_contact{
+    width: 100%; 
+}
+}
+  @media screen and (max-width:850px){  
+    .offer{    
         top: 50px;
     }
     .banner .btn{
         margin-top: 250px;  
     }
   }
-  @media screen and (max-width:767px){
+  @media screen and (max-width:767.98px){
     .offer{
         
         padding: 8px 40px 5px 40px;
         top: 80px;
     }
   
- 
     .menu .main_menu .div a{
         font-size: 15px;
     }
@@ -112,7 +141,7 @@
         width: 100%;
     }
     .contact_from .from{
-        width: 100%;
+        /* width: 100%; */
        padding: 10px 0  0 40px;
         
     }
@@ -125,7 +154,11 @@
     }
     .contact_from .from .btn{ 
         padding: 6px 30px;
-    }   
+    }  
+    /* .contact{
+        flex-direction: column-reverse;
+       
+    }  */
     @media screen and (max-width:670px) {
         .offer h1{
             font-size: 20px;
@@ -258,13 +291,22 @@
         margin-top: -40px;
     }
     .offer h1{
-        font-size: 14px;
+        font-size: 16px;
     }
     .offer p{
-        font-size: 10px;
+        font-size: 14px;
         padding: 5px 0 0 0; 
     }
     .banner .btn{
         margin-top: 160px;  
+    }
+    .contact_from .subcribe_email h3{
+        
+        font-size: 18px;
+    }
+    .contact_from .from .btn{
+       
+        padding: 6px 20px;
+       
     }
 }
